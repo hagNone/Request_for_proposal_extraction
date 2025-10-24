@@ -1,22 +1,16 @@
 {
   "Title": [
-    ") and duly authorized representative of",
+    "Affidavit Regarding Various Legal and Ethical Compliance Matters",
     "Dell Laptops w/Extended Warranty",
-    "Dell Latitude 5550",
-    "MERCURY AFFIDAVIT",
-    "Hardware Master Contract"
-  ],
-  "Any Additional Documentation Required": [
-    "Financial Disclosure Affirmation, Political Contribution Disclosure Affirmation, Drug and Alcohol-Free Workplace Certification",
-    "Please indicate any tax exemption status on your purchase order and send your tax exemption certificate to Tax_Department@dell.com or ARSalesTax@emc.com, as applicable.",
-    "Mercury Affidavit"
+    "Dell Latitude 5550 XCTO Base",
+    "Mercury Affidavit",
+    "Dell Laptop"
   ],
   "Bid Summary": [
-    "The document outlines several affirmations and certifications required for businesses entering into contracts with the State of Maryland, including registration, financial disclosure, political contribution disclosure, and drug and alcohol-free workplace policies.",
-    "RFP for Dell Laptops w/Extended Warranty. Includes Dell Latitude 5550 (Microsoft Copilot ready) and Dell Thunderbolt 4 Dock \u2013 WD22TB4.",
-    "Configuration of Dell Latitude 5550 laptop with various components and software. Includes notes on quote validity, taxes, and governing agreements.",
-    "This document is a Mercury Affidavit, requiring the bidder to declare whether their product(s) contain mercury and to provide details if they do.",
-    "Office is in need of a refresh of laptops and must acquire enough laptops to accommodate MD529 employees who have been included in our staff as of June 1, 2023."
+    "Affirmation of legal and ethical compliance for contracts with the State of Maryland.",
+    "Dell Laptops w/Extended Warranty",
+    "Mercury content information for products offered in a bid or proposal.",
+    "Refresh of laptops to accommodate MD529 employees"
   ],
   "source_file": [
     "Contract_Affidavit.pdf",
@@ -26,60 +20,56 @@
     "PORFP_-_Dell_Laptop_Final.pdf"
   ],
   "Due Date": [
-    "06/10/2024 02:00 PM EDT",
-    "06/10/2024"
+    "2024-06-10 14:00",
+    "2024-06-10 00:00"
   ],
   "contact_info": [
-    {
-      "name": "Tamaira Hawkins",
-      "phone": "410-260-7533",
-      "email": "Thawkins@treasurer.state.md.us"
-    },
-    "Tax_Department@dell.com or ARSalesTax@emc.com",
-    {
-      "Agency POC Name": "Tamaira Hawkins",
-      "Agency POC Phone Number": "410-260-7533",
-      "Agency POC Email": "thawkins@treasurer.state.md.us",
-      "Agency On-site Contact Name": "James Simpson",
-      "Agency On-site Phone Number": "410-260-6063",
-      "Agency On-site Email": "jsimpson@treasurer.state.md.us"
-    }
+    "Tamaira Hawkins, 410-260-7533, Thawkins@treasurer.state.md.us",
+    "Tax_Department@dell.com, ARSalesTax@emc.com",
+    "thawkins@treasurer.state.md.us, 410-260-7533"
   ],
   "Bid Number": [
     "BPM044557",
     "CC7802",
-    "#E20P4600040"
+    "E20P4600040"
   ],
-  "Delivery Date": [
-    "06/10/2024",
-    "within 45 days of Award"
+  "Bid Submission Type": [
+    "RFP - Request for Proposal (Informal)",
+    "eMaryland Marketplace Advantage (eMMA)"
+  ],
+  "MFG for Registration": "Dell",
+  "Contract or Cooperative to use": [
+    "No",
+    "Hardware Master Contract 060B5400007"
   ],
   "Model_no": [
-    "WD22TB4",
+    "Latitude 5550, WD22TB4",
     "Latitude 5550",
-    "5550, WD22TB4"
+    "5550"
   ],
+  "Part_no": "CC7802",
   "Product": [
-    "Dell Latitude 5550, Dell Thunderbolt 4 Dock \u2013 WD22TB4",
-    "Dell Latitude 5550 XCTO Base"
+    "Dell Laptops w/Extended Warranty, Dell Thunderbolt 4 Dock",
+    "Dell Latitude 5550",
+    "Dell Latitude 5550 Laptops"
   ],
   "company_name": [
     "State of Maryland Treasurer's Office",
-    "Dell Marketing LP.",
-    "Dell"
+    "Dell",
+    "State Treasurer's Office"
   ],
   "Product Specification": [
     "*Laptops must be Microsoft Copilot ready*",
-    "Intel Core Ultra 5 125U processor, Windows 11 Pro, 16 GB DDR5 RAM, 256 GB NVMe SSD, 15.6\" FHD display, Intel Wi-Fi 6E, 3-cell 54 Wh battery, 65W USB Type-C adapter",
-    "Information about mercury content in offered products."
+    "Intel Core Ultra 5 125U, 16 GB DDR5, 256 GB SSD, 15.6\" FHD",
+    "Microsoft Copilot ready"
   ],
   "Term of Bid": [
-    "pricing is valid for thirty days from the date of this Quote",
-    "90 days"
+    "Thirty days",
+    "90 days after the set due date"
   ],
-  "MFG for Registration": "Dell",
-  "Part_no": "210-BLYZ, 379-BFNZ, 619-ARSB, 658-BCSB, 338-CNRG, 338-CNRK, 321-BKTQ, 409-BCXY, 631-BBSQ, 370-BBTL, 400-BRFT, 391-BJHB, 583-BLNH, 555-BKQC, 555-BKLQ, 451-BDGX, 492-BDMN, 346-BKLV, 537-BBDO, 340-DMNY, 340-AGIK, 387-BBPC, 817-BBBB, 658-BFQB, 340-DMMK, 389-FGSN, 319-BBKK, 634-BRWG, 379-BDZB, 362-7806, 364-1846, 364-4107, 365-0257, 366-0135, 366-0141, 371-0941, 375-3088, 383-0464",
-  "Bid Submission Type": "eMaryland Marketplace Advantage (eMMA) e-Procurement system",
-  "Contract or Cooperative to use": "Hardware Master Contract\nDesktop, Laptop and Tablet 2015 Master Contract, 060B5400007",
-  "PORFP Type": "Fixed Price"
+  "Any Additional Documentation Required": [
+    "Tax exemption certificate",
+    "Mercury Affidavit"
+  ],
+  "Delivery Date": "Within 45 days of Award"
 }

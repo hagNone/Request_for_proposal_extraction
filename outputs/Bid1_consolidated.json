@@ -1,42 +1,28 @@
 {
-  "Bid Number": [
-    "JA-207652",
-    "168884"
-  ],
+  "Bid Number": "JA-207652",
   "company_name": [
-    "Dallas ISD",
-    "Submitter\u2019s Name/Title:",
-    "Dallas Independent School District"
+    "Dallas Independent School District",
+    "Submitter"
   ],
   "Title": [
     "Student and Staff Computing Devices",
     ".",
-    "JA-207652 Student and Staff Computing Devices",
     "Student and Staff Computing Devices SOURCING #168884"
   ],
   "Term of Bid": [
-    "3 years",
-    "three (3) year agreement with two (2) successive one (1) year extensions based on the long-range needs of the District and mutual consent of both parties not to exceed five (5) years total.",
+    "Three years",
+    "Three (3) year agreement with two (2) successive one (1) year extensions",
     "five years"
   ],
-  "Installation": "Yes, White glove services required, which include asset decaling, asset reporting, etching, and delivery to varied locations. Etching is only required on Laptops.",
-  "Delivery Date": "Starting in September of 2024.",
+  "Delivery Date": "2024-09",
   "Any Additional Documentation Required": [
-    "Additional warranty information and pricing can be submitted as an attachment.  Additional non-warranty options as a value add can be submitted as an attachment.",
-    "SIGN THIS"
+    "Additional warranty information and pricing",
+    "Signed copy of the document"
   ],
   "Product": [
-    "Student and Staff Computing Devices, Display monitor \u2013 non-Touch, ChromeBooks, Windows laptops, AIO Desktops",
-    "Student and Staff Computing Devices, including laptops, desktops, tablet devices, and display monitors",
-    "student and staff computing devices, including laptops, desktops, tablet devices, and display monitors. Accessories include, but are not limited to, sleeves, cases, mice, keyboards, and cables"
+    "Computing Devices",
+    "student and staff computing devices, including laptops, desktops, tablet devices, and display monitors"
   ],
-  "Bid Summary": [
-    "RFP for Student and Staff Computing Devices including display monitors, Chromebooks, Windows laptops and AIO Desktops.",
-    "is to extend the due date of this RFP.",
-    "The Dallas Independent School District (Dallas ISD or District) is soliciting offers for the goods and/or services specified in this document. This Request for Proposal (RFP) will be for student and staff computing devices, including laptops, desktops, tablet devices, and display monitors.",
-    "This Request for Proposal (RFP) will be for student and staff computing devices, including laptops, desktops, tablet devices, and display monitors. Vendors participating in this Request for Proposal (RFP) may submit proposals for one, several, or all categories of devices required by the District. Within each category of device, the District reserves the right to award contracts to a single vendor or multiple vendors. Vendors responding to this RFP must have the ability to provide the District with significant quantities of devices as requested in the pricing lines in this RFP. Note that quantities requested by Dallas ISD are estimates to be ordered over the five years of the contracts resulting from this RFP. Purchases may also include a variety of device accessories which will be ordered in a bundle along with the devices."
-  ],
-  "Product Specification": "USB 3.1 is a minimum requirement. A higher USB version is permissible. Warranties to be made by OEM. AIO Desktops require a webcam. Hot swap is only for when warranty work will be longer than 5 business days. Dallas ISD will primarily be using bond-funded money to purchase devices. Dallas ISD does not anticipate extending the submission deadline. References will be contacted within the week following the solicitation due date.",
   "source_file": [
     "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
     "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf",
@@ -44,21 +30,21 @@
     "Student and Staff Computing Devices __SOURCING #168884__ - Bid Information - {3} _ BidNet Direct.html"
   ],
   "Due Date": [
-    "July 9, 2024 at 2:00 PM CST",
-    "27-JUN-2024 14:00:00",
-    "07/09/2024 03:00 PM EDT"
-  ],
-  "Bid Submission Type": [
-    "RETURN/SUBMIT A COPY OF THIS WITH THEIR PROPOSAL",
-    "RFP - Request for Proposal (Informal)"
+    "2024-07-09 14:00",
+    "2024-06-27 14:00",
+    "2024-07-09 15:00"
   ],
   "contact_info": [
-    "Submitter\u2019s Name/Title:, Address:, City, State and Zip Code:, Email Address:, Submitter\u2019s Signature:, Telephone No., Fax No. 800 # (if available), Date:",
-    "Buyer ALZATE, JASMINE Email JALZATE@dallasisd.org",
-    "Procurement Services\n972-925-3700\nProcurementCS@dallasisd.org"
+    "JALZATE@dallasisd.org",
+    "ProcurementCS@dallasisd.org, 972-925-3700"
   ],
   "Pre Bid Meeting": [
-    "10-JUN-2024 14:00:00",
-    "06/10/2024 03:00 PM EDT"
-  ]
+    "2024-06-10 14:00 via TEAMS video conference",
+    "2024-06-10 15:00 EDT"
+  ],
+  "Bid Summary": [
+    "Procurement for student and staff computing devices",
+    "Request for Proposal (RFP) will be for student and staff computing devices"
+  ],
+  "Bid Submission Type": "RFP - Request for Proposal (Informal)"
 }
