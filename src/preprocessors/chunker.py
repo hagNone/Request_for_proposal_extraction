@@ -7,16 +7,16 @@ def semantic_chunker(text: str, chunk_size: int = 1500, chunk_overlap: int = 100
     We first separate major sections, then break long ones into ~1500-character pieces.
     """
 
-    # --- Step 1: split on section-like headings  ---
+    # split on section-like headings 
     sections = re.split(
         r'(?i)(SECTION\s+\d+|SCOPE|SPECIFICATION|TERMS|ADDENDUM|REQUIREMENTS)',
         text,
     )
 
-    # --- Step 2: keep only meaningful text blocks ---
+    # keep only meaningful text blocks 
     cleaned_sections = [s.strip() for s in sections if len(s.strip()) > 100]
 
-    # --- Step 3: further subdivide long blocks using LangChain splitter ---
+    #further subdivide long blocks using LangChain splitter
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size, chunk_overlap=chunk_overlap
     )
@@ -35,5 +35,5 @@ if __name__ == "__main__":
     Dallas ISD Request for Proposal JA-207652 Student and Staff Computing Devices.
     Proposals due July 9, 2024 at 2:00 PM CST. SECTION 2 – TERMS AND CONDITIONS …"""
     pieces = semantic_chunker(sample)
-    print(f"✅ {len(pieces)} chunks created")
+    print(f"{len(pieces)} chunks created")
     print(pieces[0]["text"])

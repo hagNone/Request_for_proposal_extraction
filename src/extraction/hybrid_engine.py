@@ -1,7 +1,7 @@
 import re
 from src.llm_api.prompt_templates import call_gemini_extract
 
-# --- 1️⃣ Deterministic regex rules for quick fields ---
+# Deterministic regex rules for quick fields
 PATTERNS = {
     "Bid Number": re.compile(r"\b(?:RFP|BID|JA)[\s#:-]*\d{3,7}\b", re.I),
     "Due Date": re.compile(r"(?:Due|Closing|Submission)\s*(?:Date|Time)[:\s]*([A-Za-z0-9 ,:/-]+)", re.I),
@@ -20,7 +20,7 @@ def apply_rule_extraction(text: str):
     return results
 
 
-# --- 2️⃣ Hybrid extractor combining regex + Gemini ---
+# Hybrid extractor combining regex + Gemini 
 def hybrid_extract(chunks, use_llm=True):
     """
     Combine rule-based extraction and Gemini contextual extraction.

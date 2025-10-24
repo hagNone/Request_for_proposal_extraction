@@ -34,7 +34,7 @@ def parse_txt(path: str) -> str:
 
 def parse_document(path):
     """Auto-detect file type and route to parser."""
-    path = str(path)  # Convert WindowsPath → string
+    path = str(path)  # Convert WindowsPath - string
     p = path.lower()
 
     if p.endswith(".pdf"):
@@ -51,7 +51,7 @@ def parse_document(path):
     return clean_text(text)
 
 
-# --- quick cleanup helpers ---
+# quick cleanup helpers
 def clean_text(text: str) -> str:
     """Remove headers, page numbers, and redundant whitespace."""
     text = re.sub(r"Page\s+\d+\s+of\s+\d+", "", text, flags=re.I)

@@ -8,7 +8,7 @@ def process_single_file(file_path):
     """Parse, clean, chunk, and extract fields from a single file."""
     text = parse_document(file_path)
     if not text.strip():
-        print(f"⚠️ No text extracted from {file_path.name}")
+        print(f"No text extracted from {file_path.name}")
         return None
 
     chunks = semantic_chunker(text)
@@ -42,7 +42,7 @@ def run_pipeline():
     output_root.mkdir(exist_ok=True)
 
     bid_folders = [f for f in raw_root.iterdir() if f.is_dir()]
-    print(f"📂 Found {len(bid_folders)} bid folders")
+    print(f"Found {len(bid_folders)} bid folders")
 
     for bid_folder in bid_folders:
         print(f"\n🏗️ Processing folder: {bid_folder.name}")
@@ -51,13 +51,13 @@ def run_pipeline():
         for file in bid_folder.rglob("*"):
             if not file.suffix.lower() in [".pdf", ".html", ".htm", ".docx", ".txt"]:
                 continue
-            print(f"📄 {file.name}")
+            print(f"{file.name}")
             try:
                 extracted = process_single_file(file)
                 if extracted:
                     all_results.append(extracted)
             except Exception as e:
-                print(f"❌ Error processing {file.name}: {e}")
+                print(f"Error processing {file.name}: {e}")
 
         # Merge and save consolidated JSON
         if all_results:
@@ -65,9 +65,9 @@ def run_pipeline():
             out_path = output_root / f"{bid_folder.name}_consolidated.json"
             with open(out_path, "w", encoding="utf-8") as f:
                 json.dump(merged_data, f, indent=2)
-            print(f"✅ Consolidated JSON saved: {out_path}")
+            print(f"Consolidated JSON saved: {out_path}")
         else:
-            print(f"⚠️ No valid files found in {bid_folder.name}")
+            print(f" No valid files found in {bid_folder.name}")
 
 if __name__ == "__main__":
     run_pipeline()
