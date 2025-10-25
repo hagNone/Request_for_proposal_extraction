@@ -1,8 +1,8 @@
 # Request for Proposal (RFP) Extraction Tool
 
-Request for Proposal (RFP) Extraction Tool is an end-to-end automated system designed to intelligently extract and structure key information from RFP and Bid documents of varying formats -  including PDF, HTML, DOCX, and TXT.
+Request for Proposal (RFP) Extraction Tool is an end-to-end automated system designed to intelligently extract and structure key information from RFP and Bid documents of varying formats -  including [...]
 
-Organizations, especially those in procurement, education, and government sectors, often deal with large volumes of RFPs that contain crucial details like Bid Numbers, Submission Deadlines, Payment Terms, and Product Specifications. Extracting these manually is time-consuming and error-prone. This tool automates that process efficiently using document parsing, semantic chunking, and LLM-powered extraction (Gemini).
+Organizations, especially those in procurement, education, and government sectors, often deal with large volumes of RFPs that contain crucial details like Bid Numbers, Submission Deadlines, Payment Te[...]
 
 ## Features
 
@@ -21,6 +21,8 @@ Organizations, especially those in procurement, education, and government sector
 - Google Cloud project with Gemini API access
 
 ### Installation and Setup
+
+#### Option 1: Clone from GitHub
 
 1. **Clone the repository**
    ```bash
@@ -64,6 +66,33 @@ Organizations, especially those in procurement, education, and government sector
    Or create a `.env` file in the project root:
    ```
    GOOGLE_API_KEY=your_gemini_api_key
+   ```
+
+#### Option 2: If You Have the Full Code as a ZIP File
+
+If you received the project as a ZIP file (instead of cloning from GitHub):
+
+1. **Extract the ZIP file**
+   - Right-click the ZIP file and choose "Extract All" (Windows) or use `unzip filename.zip` (macOS/Linux).
+   - Move into the extracted folder:
+     ```bash
+     cd Request_for_proposal_extraction
+     ```
+
+2. **Create and activate a virtual environment**
+   - See instructions above for your operating system.
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Set up Google Gemini API**
+   - Follow instructions above to set the API key.
+
+5. **Run the tool**
+   ```bash
+   python -m src.core.controllers
    ```
 
 ### Verification
@@ -145,7 +174,7 @@ python -m src.core.controllers
 
 ## Output Format
 
-The tool extracts standardized fields from RFP documents and outputs them in a structured JSON format. Each bid folder's documents are processed and consolidated into a single JSON file containing all extracted information.
+The tool extracts standardized fields from RFP documents and outputs them in a structured JSON format. Each bid folder's documents are processed and consolidated into a single JSON file containing all[...]
 
 ## Dependencies
 
